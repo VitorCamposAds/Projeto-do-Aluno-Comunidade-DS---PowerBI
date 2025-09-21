@@ -2,7 +2,7 @@
 
 ## Descrição do Projeto
 
-Este projeto tem como objetivo desenvolver uma análise crítica de dados do Airbnb sobre o mercado de locação de quartos na cidade de Nova York. O CEO da empresa *Tudo Aqui* solicitou um relatório no Power BI que contenha duas dashboards interativas, sendo uma com análises gráficas e outra com detalhes em forma de tabelas ou matrizes. Os dados utilizados são provenientes do conjunto de dados do Airbnb, que inclui informações de 2011 a 2017 para a cidade de Nova York.
+Este projeto tem como objetivo desenvolver uma análise crítica de dados do Airbnb sobre o mercado de locação de quartos na cidade de Nova York. O CEO da empresa *Tudo Aqui* solicitou um relatório no Power BI que contenha dois dashboards interativas, sendo uma com análises gráficas e outra com detalhes em forma de tabelas ou matrizes. Os dados utilizados são provenientes do conjunto de dados do Airbnb, que inclui informações de 2011 a 2017 para a cidade de Nova York.
 
 Os dados podem ser acessados através do seguinte [link do Kaggle](https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data).
 
