@@ -71,58 +71,32 @@ As colunas a serem analisadas e seus respectivos tipos de dados são:
 
 ### 2. Cálculos
 - **Criação de Coluna de Classificação de Preços**: Adicione uma coluna para classificar o preço mínimo final de acordo com a regra solicitada.
-  
-```python
-Classificação_Preço = 
-SWITCH(
-    TRUE(),
-    [Preço Mínimo Final] <= 1000, "Baixo Padrão",
-    [Preço Mínimo Final] <= 10000, "Médio Padrão",
-    [Preço Mínimo Final] <= 100000, "Alto Padrão",
-    [Preço Mínimo Final] > 100000, "Altíssimo Padrão"
-)
 
-3. Dashboards
+### 3. Dashboards
+- **Dashboard Gráfico**: Utilize gráficos interativos, como gráficos de barras, linhas e dispersão, para analisar as tendências de preços e número de avaliações ao longo do tempo.
+- **Dashboard de Detalhes**: Crie uma tabela ou matriz que exiba dados detalhados sobre as acomodações, incluindo preço, tipo de quarto, e número de avaliações.
 
-Dashboard Gráfico: Utilize gráficos interativos, como gráficos de barras, linhas e dispersão, para analisar as tendências de preços e número de avaliações ao longo do tempo.
+### 4. Segmentação e Interatividade
+- Adicione uma segmentação que permita aos usuários escolher a classificação de preço para filtrar os dados (Baixo Padrão, Médio Padrão, etc.).
+- Crie um menu interativo com uma imagem de fundo relacionada a viagens.
 
-Dashboard de Detalhes: Crie uma tabela ou matriz que exiba dados detalhados sobre as acomodações, incluindo preço, tipo de quarto, e número de avaliações.
+## Conclusão
 
-4. Segmentação e Interatividade
+Este relatório foi desenvolvido para atender às necessidades do CEO e do Corpo Diretivo da *Tudo Aqui*, proporcionando uma análise clara e acessível dos dados de locação de quartos em Nova York, com foco na classificação de preços e tendências temporais.
 
-Adicione uma segmentação que permita aos usuários escolher a classificação de preço para filtrar os dados (Baixo Padrão, Médio Padrão, etc.).
+---
 
-Crie um menu interativo com uma imagem de fundo relacionada a viagens.
+## Tecnologias Utilizadas
 
-Conclusão
+- **Power BI**: Ferramenta principal para visualização e análise de dados.
+- **Kaggle**: Fonte dos dados do Airbnb.
+- **Power Query**: Utilizado para limpar e transformar os dados antes da análise.
 
-Este relatório foi desenvolvido para atender às necessidades do CEO e do Corpo Diretivo da Tudo Aqui, proporcionando uma análise clara e acessível dos dados de locação de quartos em Nova York, com foco na classificação de preços e tendências temporais.
+---
 
-Tecnologias Utilizadas
+## Como Utilizar
 
-Power BI: Ferramenta principal para visualização e análise de dados.
-
-Kaggle: Fonte dos dados do Airbnb.
-
-Power Query: Utilizado para limpar e transformar os dados antes da análise.
-
-Nota: Não se esqueça de fazer os testes necessários e garantir que todas as informações estejam corretas antes de disponibilizar o relatório final.
-
-
-### Como Utilizar:
-1. **Clone o Repositório**:
+**Clone o Repositório**:
    - Para clonar o repositório e começar a trabalhar no projeto, execute:
    ```bash
    git clone https://github.com/seu_usuario/seu_repositorio.git
-
-
-Importação de Dados:
-
-Faça o download do conjunto de dados do Kaggle aqui
-.
-
-Configuração do Power BI:
-
-Importe os dados no Power BI e siga as instruções de transformação conforme descrito.
-
-Configure os gráficos e tabelas conforme solicitado.
